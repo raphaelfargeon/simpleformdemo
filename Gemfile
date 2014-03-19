@@ -13,6 +13,7 @@ gem 'devise'
 gem 'bootstrap-sass'
 gem "annotate", "~> 2.6.2"
 gem "magic_encoding", "~> 0.0.2"
+gem 'country_select'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
