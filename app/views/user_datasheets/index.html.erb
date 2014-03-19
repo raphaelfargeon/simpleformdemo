@@ -1,0 +1,39 @@
+<h1>Listing user_datasheets</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Phone</th>
+      <th>Mobile</th>
+      <th>Title</th>
+      <th>Birthdate</th>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Nickname</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @user_datasheets.each do |user_datasheet| %>
+      <tr>
+        <td><%= user_datasheet.phone %></td>
+        <td><%= user_datasheet.mobile %></td>
+        <td><%= user_datasheet.title %></td>
+        <td><%= user_datasheet.birthdate %></td>
+        <td><%= user_datasheet.firstname %></td>
+        <td><%= user_datasheet.lastname %></td>
+        <td><%= user_datasheet.nickname %></td>
+        <td><%= link_to 'Show', user_datasheet %></td>
+        <td><%= link_to 'Edit', edit_user_datasheet_path(user_datasheet) %></td>
+        <td><%= link_to 'Destroy', user_datasheet, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New User datasheet', new_user_datasheet_path %>

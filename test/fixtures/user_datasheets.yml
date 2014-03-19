@@ -1,0 +1,35 @@
+# == Schema Information
+#
+# Table name: user_datasheets
+#
+#  id         :integer          not null, primary key
+#  phone      :string(40)
+#  mobile     :string(40)
+#  title      :string(255)      not null
+#  birthdate  :date
+#  firstname  :string(40)
+#  lastname   :string(40)
+#  nickname   :string(80)       not null
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  phone: MyString
+  mobile: MyString
+  title: MyString
+  birthdate: 2014-03-19
+  firstname: MyString
+  lastname: MyString
+  nickname: MyString
+
+two:
+  phone: MyString
+  mobile: MyString
+  title: MyString
+  birthdate: 2014-03-19
+  firstname: MyString
+  lastname: MyString
+  nickname: MyString

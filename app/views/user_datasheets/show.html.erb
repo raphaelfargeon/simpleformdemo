@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @user_datasheet.phone %>
+</p>
+
+<p>
+  <strong>Mobile:</strong>
+  <%= @user_datasheet.mobile %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @user_datasheet.title %>
+</p>
+
+<p>
+  <strong>Birthdate:</strong>
+  <%= @user_datasheet.birthdate %>
+</p>
+
+<p>
+  <strong>Firstname:</strong>
+  <%= @user_datasheet.firstname %>
+</p>
+
+<p>
+  <strong>Lastname:</strong>
+  <%= @user_datasheet.lastname %>
+</p>
+
+<p>
+  <strong>Nickname:</strong>
+  <%= @user_datasheet.nickname %>
+</p>
+
+<%= link_to 'Edit', edit_user_datasheet_path(@user_datasheet) %> |
+<%= link_to 'Back', user_datasheets_path %>
