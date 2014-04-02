@@ -15,6 +15,10 @@ gem "annotate", "~> 2.6.2"
 gem "magic_encoding", "~> 0.0.2"
 gem 'country_select'
 
+gem 'rails-i18n'
+gem "i18n"
+
+
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

@@ -1,9 +1,9 @@
 # == Schema Information
 #
-# Table name: questions
+# Table name: answers
 #
 #  id         :integer          not null, primary key
-#  question   :string(255)
+#  reponse    :string(255)
 #  created_at :datetime
 #  updated_at :datetime
 #
@@ -11,7 +11,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  question: MyString
+  reponse: MyString
 
 two:
-  question: MyString
+  reponse: MyString
